@@ -8,7 +8,7 @@ main img {
     height: auto;
     border: 1px solid #333;
     padding: 0.2rem;
-    box-shadow: 0;
+    box-shadow: black;
 }
 
 nav {
