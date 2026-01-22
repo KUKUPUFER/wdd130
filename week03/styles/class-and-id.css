@@ -1,3 +1,5 @@
+/* this is a comment */
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -9,8 +11,6 @@ h1 {
     border-bottom: 1px solid rgb(0 110 182);
     padding-bottom: 0;
 }
-
-
 
 p {
     margin: 0;
@@ -28,7 +28,8 @@ code {
     margin: 20px 0;
     border: 1px solid rgb(0 0 0 / 10%);
     padding: 10px;
-    background-color: #ddd; /* this is shorthand for #dddddd */
+    background-color: #ddd;
+    /* this is shorthand for #dddddd */
 }
 
 .highlight {
@@ -55,4 +56,3 @@ code {
     border-radius: 20px;
     padding: 20px
 }
-
