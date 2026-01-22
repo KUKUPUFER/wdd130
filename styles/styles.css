@@ -1,9 +1,14 @@
 :root {
-    --secondary-color: darkblue;
-    --border: 1px solid black;
-    --primary-color: white;
-    --text-align: centre;
-    --img-height: auto;
+    --primary-color: rgb(180, 197, 192);
+    --secondary-color: rgba(10, 24, 70, 0.87);
+    --height: auto;
+    --text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 main {
@@ -13,10 +18,11 @@ main {
 
 main img {
     width: 150px;
-    height: var(--img-height);
+    height: var(--height);
     border: 1px solid #333;
     padding: 0.2rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    float: right;
 }
 
 nav {
@@ -25,25 +31,26 @@ nav {
 }
 
 nav a {
-    color: var(--color);
+    color: var(--primary-color);
     display: block;
     padding: 20px;
 }
 
 h1 {
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 img {
     width: 150px;
-    height: var(--img-height);
-    border: var(var(--border));
+    height: var(--height);
+    border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
 
 p {
     padding: 0;
+    color: var(--secondary-color);
 }
 
 aside {
@@ -56,13 +63,30 @@ aside {
     text-align: var(--text-align);
 }
 
+aside h2 {
+    position: relative;
+    top: 50px;
+    left: auto;
+    color: var(--secondary-color);
+}
+
 aside img {
     width: 200px;
-    height: var(--img-height);
+    height: var(--height);
 }
 
 footer {
     margin-top: 3rem;
     border-top: 1px solid #333;
     text-align: var(--text-align);
+}
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
 }
