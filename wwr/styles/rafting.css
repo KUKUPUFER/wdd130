@@ -79,12 +79,15 @@ h1 {
 
 .hero article {
     position: absolute;
-    display: block;
-    background-color: var(--accent-color);
     color: var(--primary-color);
     height: var(--height);
     margin: 0 auto;
-    top: 370px;
+    top: 350px;
+}
+
+article h2 {
+    background-color: var(--accent-color);
+    color: var(--primary-color);
 }
 
 section h2 {
